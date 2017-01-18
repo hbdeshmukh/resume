@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{charter}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{xcolor}
+%\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\definecolor{light-gray}{gray}{0.8}
+\hypersetup{
+	bookmarks=false,
+	pdfborder={0 0 0},
+	pdftitle={CV - Harshad Deshmukh},
+	pdfauthor={Harshad Deshmukh},
+	colorlinks=true,
+	urlcolor=black
+}
+\usepackage{multirow}
+%\titleformat{\section}{\bfseries}{\thesection.}{1em}{}
+%\titlespacing{\section}{0pt}{12pt}{6pt}
+\begin{document}
+%\LARGE{\textcolor{darkblue}{\textbf{Supriya Hirurkar}}}
+\begin{flushleft}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}%{l r}%{p{3.9in}p{3.9in}}
+{\LARGE{\textcolor{darkblue}{\textbf{\textsc{Harshad Deshmukh}}}}} & Phone: 267-240-6354\\
+4715 Sheboygan Avenue, \#222, Madison, WI 53705 & harshad@cs.wisc.edu
+\end{tabular*}
+\end{flushleft}
+%\line(1,0){480}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{mdframed}[backgroundcolor=light-gray, linecolor=light-gray, roundcorner=10pt, shadow=false, shadowsize=1pt]
+\Large{\textbf{\textsc{Areas of Interest}}}
+\end{mdframed}
+\begin{itemize}
+	\item[]Main Memory Database Systems, Query Scheduling
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{mdframed}[backgroundcolor=light-gray, linecolor=light-gray, roundcorner=10pt, shadow=false, shadowsize=1pt]
+\Large{\textbf{\textsc{Education}}}
+\end{mdframed}
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}%\setlength{\itemindent}{0em}
+\item{\textbf{PhD}, Computer Sciences (Database Systems) \hfill (Expected December 2017) }\\
+	\textendash\ University of Wisconsin - Madison, USA
+\item{\textbf{Master of Science}, Computer Sciences \hfill (Aug 2012 - May 2014) }\\
+	\textendash\ University of Wisconsin - Madison, USA
+\item{\textbf{M.Sc.} Mathematics and \textbf{B.E.} Computer Science\hfill (Aug 2006 - Jun 2011) }\\
+	\textendash\ Birla Institute of Technology and Science (BITS), Pilani, India
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{Certifications}
+\begin{mdframed}[backgroundcolor=light-gray, linecolor=light-gray, roundcorner=10pt, shadow=false, shadowsize=1pt]
+\Large{\textbf{\textsc{Professional Experience}}}
+\end{mdframed}
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+	\item{\textit{Research Assistant}, Database Systems Group, UW - Madison \hfill (Since Jan 2013)}\\
+		\textendash\ Working on \textbf{Quickstep}, a Main Memory Database System with Prof. \textbf{Jignesh M. Patel} \\
+		\textendash\ Designing and building a dynamic \textbf{query scheduler} for multi-threaded execution of relational queries \\
+		\textendash\ Extensive concurrent programming in C++\\
+	\item{\textit{Intern}, Pivotal, Palo Alto, California \hfill (3 months from June 2015)}\\
+	\textendash\ Joined as a part of the acquisition of Quickstep Technologies by Pivotal \\
+	\textendash\ Continued work on Quickstep database system along with employees of Pivotal\\
+	\item{\textit{Research Intern}, Samsung Semiconductors, Milpitas, California \hfill (3 months from May 2014)}\\
+		\textendash\ Worked on optimizing \textbf{SSDs} (Solid-state drives) for \textbf{data management systems} \\
+		\textendash\ Understood intricate details of SSD functionalities and applied them for efficient data management \\
+		\textendash\ Precise details not mentioned due to confidentiality agreement\\
+	\item{\textit{Engineer IT}, Cisco Systems, Bangalore, India \hfill (11 months from Jul 2011)}\\
+		\textendash\ Developed \textbf{Web Services} based on \textbf{Service Oriented Architecture} methodology\\
+		\textendash\ Used Apache CXF framework, J2EE and SQL for backend development\\
+		\textendash\ Contributed in developing an Ontology application using SPARQL, Oracle RDF data store\\
+	\item{\textit{Student Intern}, RSA Security at EMC, Bangalore, India \hfill (6 months from Jan 2011)}\\
+		\textendash\ Worked on Digital Certificate importing modules in \textbf{RSA Data Protection Manager}\\
+		\textendash\ Implemented Certicate Management Protocol in \textbf{Java} using RSA BSAFE APIs\\
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{mdframed}[backgroundcolor=light-gray, linecolor=light-gray, roundcorner=10pt, shadow=false, shadowsize=1pt]
+\Large{\textbf{\textsc{Academic Projects}}}
+\end{mdframed}
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}%\setlength{\itemindent}{0em}
+\item{\textbf{Complex Event Processing}}\\
+	\textendash\ Analyzed the scalability of and developed SQL like queries for Storm from Twitter\\
+	\textendash\ Evaluation with varying workload on a simulated distributed system to analyze the throughput and memory footprint\\
+\item{\textbf{Indexing and Regular Expression Search for Text Documents in \textit{Quickstep}}}\\
+	\textendash\ Facilitated bulk loading of text documents and built a Posting List Index on top of them\\
+	\textendash\ Implemented keyword and regular expression search for the text documents using RE2, an open source library\\
+\item{\textbf{Database System Implementation using XML}}\\
+	\textendash\ Analyzed the merits of XML in representing data in an object-relational model and implementing a generic model for storing object-relational data\\
+	\textendash\ Designed a new database system's concurrency and crash recovery management features\\
+	\item{\textbf{Simulation of Traffic Flow using Cellular Automata Model}}\\
+	\textendash\ Studied various Cellular Automata models for road traffic\\
+	\textendash\ Designed simulations using Python based GUIs to demonstrate rules given by Cellular Automata about acceleration, velocity and displacement for vehicles\\
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{Skill Sets}
+\begin{mdframed}[backgroundcolor=light-gray, linecolor=light-gray, roundcorner=10pt, shadow=false, shadowsize=1pt]
+\Large{\textbf{\textsc{Skill Sets}}}
+\end{mdframed}
+\begin{tabular}{l  c  l}
+ & \\
+\textbf{Programming languages} & & \quad C++, Java, Python, Shell scripting, C\\
+\textbf{Data management} & & \quad MySQL, HBase, LevelDB\\
+\textbf{Development environments} & & \quad VIM, Eclipse based IDEs, NetBeans\\
+\textbf{Web technologies} & & \quad JSP, JavaScript, CSS/HTML, PHP, ASP.NET, Django\\
+\textbf{Publishing} & & \quad \LaTeX, Microsoft Word, Open Office\\ \\
+\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{Awards and Recognitions}
+\begin{mdframed}[backgroundcolor=light-gray, linecolor=light-gray, roundcorner=10pt, shadow=false, shadowsize=1pt]
+\Large{\textbf{\textsc{Awards and Recognitions}}}
+\end{mdframed}
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+	\item{Multiple \textbf{Cisco Star} and \textbf{Spark} awards for excellent technical contribution at Cisco Systems}
+	\item{Ranked in top 30 students in \textbf{Indian Mathematics Olympiad} from Maharashtra and Goa states in India}
+	\item{Certified in \textbf{Oracle Database 11g} - Oracle Certification 1Z0-051 on SQL Fundamentals}
+	\item{\textbf{Summer Research Fellowship} from Indian Academy of Science}
+	\item{\textbf{Merit cum Need Scholarship} for consistent academic performance at BITS Pilani}
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{mdframed}[backgroundcolor=light-gray, linecolor=light-gray, roundcorner=10pt, shadow=false, shadowsize=1pt]
+\Large{\textbf{\textsc{Presentations}}}
+\end{mdframed}
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+	\item{\textbf{Dynamic Rerouting in Vehicular Ad-Hoc Networks} at \textbf{IBM Research Lab}, New Delhi}\\
+	\textendash Proposed a dynamic rerouting algorithm using Ant Colony Optimization to beat traffic congestion\\
+	\item{\textbf{Road Traffic Simulation using Cellular Automata} and \textbf{Swarm Intelligence} at APOGEE}\\
+	\textendash APOGEE is the annual technical festival held in BITS Pilani\\
+	\textendash Simulated road traffic scnearios in Python based GUIs.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{mdframed}[backgroundcolor=light-gray, linecolor=light-gray, roundcorner=10pt, shadow=false, shadowsize=1pt]
+\Large{\textbf{\textsc{Extra Curricular}}}
+\end{mdframed}
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+	\item{\textbf{Moderator}, BITS2MSPhD (\url{http://groups.yahoo.com/group/bits2msphd/}) - A forum for BITS students interested in Masters/PhD}
+	\item{\textbf{Member of Steering Committee},  Award for Excellence in Computer Science - An award for undergraduates in BITS Pilani (\url{http://aecs.bits-csa.org/})}
+	\item{\textbf{Co-ordinator}, Communication Cell, BITS Embryo (\url{http://embryo.bits-pilani.ac.in})}
+	\item{\textbf{Vice President}, Maharashtra Mandal - a cultural group in BITS Pilani}
+	\item{\textbf{BITSAA International Leader} - for BITS Alumni Association (BITSAA)}
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
