@@ -26,19 +26,20 @@
 \begin{document}
 \begin{flushleft}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}%{l r}%{p{3.9in}p{3.9in}}
-{\LARGE{\textcolor{darkblue}{\textbf{\textsc{Harshad Deshmukh}}}}} & Phone: 267-240-6354\\
-4715 Sheboygan Avenue, \#222, Madison, WI 53705 & harshad@cs.wisc.edu
+{\LARGE{\textcolor{darkblue}{\textbf{\textsc{Harshad Deshmukh}}}}} & \url{http://pages.cs.wisc.edu/~harshad}\\
+%4715 Sheboygan Avenue, \#222, Madison, WI 53705 & harshad@cs.wisc.edu
+Phone: 267-240-6354 & harshad@cs.wisc.edu
 \end{tabular*}
 \end{flushleft}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graybox{Areas of Interest}
 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
-	\item[]Query scheduling, Resource management, Main memory database systems
+	\item[]Query Scheduling, Resource Management, In-memory Database Systems
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graybox{Education}
 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
-\item{\textbf{PhD}, Computer Sciences (Database Systems) \hfill (Expected December 2018) }\\
+\item{\textbf{PhD}, Computer Sciences (Database Systems) \hfill (Expected May 2018) }\\
 	\textendash\ Advisor: Prof. Jignesh M. Patel\\
 	\textendash\ University of Wisconsin - Madison
 \item{\textbf{Master of Science}, Computer Sciences \hfill (Aug 2012 - May 2014) }\\
@@ -47,35 +48,45 @@
 	\textendash\ Birla Institute of Technology and Science (BITS), Pilani, India
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\graybox{Research Experience}
+\graybox{Publications}
 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
 \item{\textbf{Adaptive Concurrent Query Scheduler For Quickstep Database System} (IEEE BigData Congress 2017)}\\
-		\textendash\ Developed an adaptive, and responsive database scheduler for concurrent queries.\\
-		\textendash\ The scheduler separates resource sharing policies from mechanisms using a probabilistic framework. \\
-		\textendash\ Demonstrated the effectiveness of policies such as fair, highest priority first and proportional priority.\\
-		\textendash\ \textbf{Contributions:} Formulation of ideas with Prof. Patel and implementation of the scheduler.\\
+		\textendash\ Developed an adaptive, and responsive database scheduler for concurrent queries\\
+		\textendash\ The scheduler separates resource sharing policies from mechanisms using a probabilistic framework \\
+		\textendash\ Demonstrated the effectiveness of policies such as fair, highest priority first and proportional priority\\
+%		\textendash\ \textbf{Contributions:} Formulation of ideas with Prof. Patel and implementation of the scheduler.\\
+		\textendash\ Winner of the best student paper award\\
+		
 \item{\textbf{Quickstep: A High Performance Data Platform based
-on a Scaling-In Approach} (Under submission)}	\\
-		\textendash\ Described the Quickstep database system developed with a scaling-in design philosophy.\\
-		\textendash\ Showcased the adaptive nature of the query scheduler by flexibly changing CPU resources while the query is in progress. \\
-		\textendash\ Demonstration of a query progress monitor highlighting live statistics including degree of parallelism of relational operators, execution times etc.\\
-		\textendash\ \textbf{Contributions:} Co-author with Quickstep colleagues, design and performing experiments, profiling query execution, and optimizing query execution performance.
+on a Scaling-Up Approach} (VLDB revision)}	\\
+		\textendash\ Described the Quickstep data platform developed with a scaling-up design philosophy\\
+		\textendash\ Showcased the adaptive nature of the query scheduler by flexibly changing CPU resources while the query is in progress \\
+		\textendash\ Demonstrated query progress monitoring to get statistics such as degree of parallelism of relational operators and their execution times\\
+		\textendash\ \textbf{Contributions:} Co-author with Quickstep colleagues, designing and performing experiments, profiling query execution, and optimizing query execution performance\\
+		
+\item{\textbf{Making a Case for In-memory Database Scheduler} (Under preparation)}	\\
+		\textendash\ Demonstrating the benefits of having a separate query scheduler component\\
+		\textendash\ Making a clear distinction between query optimizer and query scheduler\\ 
+		\textendash\ Analyzing various intra-query scheduling policies and their performance characteristics\\	
+
+\item{\textbf{Determining Data Locality in a Distributed System using Aggregation of Locality Summaries}
+	(Patent pending)}	
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graybox{Professional Experience}
 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
 	\item{\textit{Research Assistant}, Database Systems Group, UW - Madison \hfill (Since Jan 2013)}\\
-		\textendash\ Working on \textbf{Quickstep}, a Main Memory Database System with Prof. \textbf{Jignesh M. Patel} \\
-		\textendash\ Designing and building a dynamic \textbf{query scheduler} for multi-threaded execution of relational queries \\
+		\textendash\ Working on Apache (incubating) \textbf{Quickstep} database system with Prof. \textbf{Jignesh M. Patel} \\
+		\textendash\ Designing and building a dynamic \textbf{Query Scheduler} for multi-threaded execution of relational queries \\
 %		\textendash\ Extensive concurrent programming in C++\\
-	\item{\textit{Research Intern}, CISL, Microsoft, Sunnyvale, California \hfill (May 2017 - Now)}\\
-	\textendash\ Enabling stream processing systems to self regulate and take smarter scheduling decisions. \\
-	\textendash\ Contributing to Twitter Heron (Apache incubating project).\\
+	\item{\textit{Research Intern}, CISL, Microsoft, Sunnyvale, California \hfill (3 months from May 2017)}\\
+	\textendash\ Worked on designing \textbf{self regulating Stream Processing systems} that can take smarter scheduling decisions using \textbf{Machine Learning} techniques \\
+	\textendash\ Collaborations with the Microsoft Dhalion project team and Apache (incubating) Heron project team\\
 	\item{\textit{Intern}, Pivotal Inc., Palo Alto, California \hfill (3 months from June 2015)}\\
 	\textendash\ Joined as a part of the acquisition of Quickstep Technologies by Pivotal Inc.\\
 	\textendash\ Continued development of Quickstep system working jointly with the employees of Pivotal Inc.\\
 	\item{\textit{Research Intern}, Samsung Semiconductors, Milpitas, California \hfill (3 months from May 2014)}\\
-		\textendash\ Worked on optimizing \textbf{SSDs} (Solid-state drives) for \textbf{data management systems} \\
+		\textendash\ Worked on optimizing \textbf{SSDs} (Solid-state drives) for \textbf{Data Management Systems} \\
 		\textendash\ Studied intricate details of SSD functionalities and applied them for efficient data management \\
 		\textendash\ Precise details not mentioned due to confidentiality agreement\\
 	\item{\textit{Engineer IT}, Cisco Systems, Bangalore, India \hfill (11 months from Jul 2011)}\\
@@ -87,34 +98,9 @@ on a Scaling-In Approach} (Under submission)}	\\
 		\textendash\ Implemented Certificate Management Protocol in \textbf{Java} using RSA BSAFE APIs\\
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\graybox{Academic Projects}
-\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}%\setlength{\itemindent}{0em}
-\item{\textbf{Complex Event Processing}}\\
-	\textendash\ Analyzed the scalability of and developed SQL like queries for Storm from Twitter\\
-	\textendash\ Evaluation with varying workload on a simulated distributed system to analyze the throughput and memory footprint\\
-\item{\textbf{Indexing and Regular Expression Search for Text Documents in \textit{Quickstep}}}\\
-	\textendash\ Facilitated bulk loading of text documents and built a Posting List Index on top of them\\
-	\textendash\ Implemented keyword and regular expression search for the text documents using RE2, an open source library\\
-\item{\textbf{Database System Implementation using XML}}\\
-	\textendash\ Analyzed the merits of XML in representing data in an object-relational model and implementing a generic model for storing object-relational data\\
-	\textendash\ Designed a new database system's concurrency and crash recovery management features\\
-	\item{\textbf{Simulation of Traffic Flow using Cellular Automata Model}}\\
-	\textendash\ Studied various Cellular Automata models for road traffic\\
-	\textendash\ Designed simulations using Python based GUI to demonstrate rules given by Cellular Automata about acceleration, velocity and displacement for vehicles\\
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\graybox{Skill Sets}
-\begin{tabular}{l  c  l}
- & \\
-\textbf{Programming languages} & & \quad C++, Python, Shell scripting, , Java, C\\
-\textbf{Data management} & & \quad MySQL, MonetDB, HBase, LevelDB\\
-\textbf{Development environments} & & \quad VIM, Eclipse based IDEs\\
-\textbf{Web technologies} & & \quad JSP, JavaScript, CSS/HTML, PHP, ASP.NET, Django\\
-\textbf{Publishing} & & \quad \LaTeX, Microsoft Word, Open Office\\ \\
-\end{tabular}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graybox{Awards and Recognitions}
 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+	\item{\textbf{Best student paper} at IEEE BigData Congress 2017, Honolulu, Hawaii}	
 	\item{Multiple \textbf{Cisco Star} and \textbf{Spark} awards for excellent technical contribution at Cisco Systems}
 	\item{Ranked in top 30 students in \textbf{Indian Mathematics Olympiad} from Maharashtra and Goa states in India}
 	\item{Certified in \textbf{Oracle Database 11g} - Oracle Certification 1Z0-051 on SQL Fundamentals}
@@ -124,12 +110,43 @@ on a Scaling-In Approach} (Under submission)}	\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graybox{Presentations}
 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+	\item{\textbf{Introduction to Apache Quickstep and its scheduler}, various venues}\\
+	\textendash\  SRI Labs, Menlo Park, California\\
+	\textendash\  Hortonworks, Santa Clara, California\\
+	\textendash\  Meetup organized by H2O.ai in Mountain View, California\\	
+	\textendash\  SCI Labs, Computer Sciences, UW-Madison\\		
 	\item{\textbf{Dynamic Rerouting in Vehicular Ad-Hoc Networks} at \textbf{IBM Research Lab}, New Delhi}\\
-	\textendash Proposed a dynamic rerouting algorithm using Ant Colony Optimization to beat traffic congestion\\
+	\textendash\ Proposed a Dynamic Rerouting algorithm using Ant Colony Optimization to beat traffic congestion\\
 	\item{\textbf{Road Traffic Simulation using Cellular Automata} and \textbf{Swarm Intelligence} at APOGEE}\\
-	\textendash APOGEE is the annual technical festival held in BITS Pilani\\
-	\textendash Simulated road traffic scenarios in Python based GUI.
+	\textendash\  APOGEE is the annual technical festival held in BITS Pilani\\
+	\textendash\  Simulated road traffic scenarios in Python based GUI.
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graybox{Academic Projects}
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}%\setlength{\itemindent}{0em}
+\item{\textbf{Complex Event Processing}}\\
+	\textendash\ Analyzed the scalability of and developed SQL like queries for Storm from Twitter\\
+	\textendash\ Evaluated the throughput and memory footprint of the execution\\
+\item{\textbf{Indexing and Regular Expression Search for Text Documents in \textit{Quickstep}}}\\
+	\textendash\ Facilitated bulk loading of text documents and construction of an inverted index\\
+	\textendash\ Implemented keyword and regular expression search for the documents\\% using RE2, an open source library\\
+\item{\textbf{Database System Implementation using XML}}\\
+	\textendash\ Analyzed the merits of XML in representing data in an object-relational model and using a generic model for storing object-relational data\\
+	\textendash\ Designed a new database system's concurrency and crash recovery management features\\
+	\item{\textbf{Simulation of Traffic Flow using Cellular Automata Model}}\\
+	\textendash\ Studied various Cellular Automata models for road traffic\\
+	\textendash\ Designed simulations using Python based GUI to demonstrate rules given by Cellular Automata about acceleration, velocity and displacement for vehicles\\
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graybox{Skill Sets}
+\begin{tabular}{l  c  l}
+ & \\
+\textbf{Programming languages} & & \quad C++, Python, Shell scripting, Java, C\\
+\textbf{Data management} & & \quad MySQL, MonetDB, HBase, LevelDB\\
+\textbf{Development environments} & & \quad Vim, CLion, Jupyter\\
+\textbf{Web technologies} & & \quad JSP, JavaScript, CSS/HTML, PHP, ASP.NET, Django\\
+\textbf{Publishing} & & \quad \LaTeX, Microsoft Word, Open Office\\ \\
+\end{tabular}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graybox{Extra Curricular}
 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
